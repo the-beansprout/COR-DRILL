@@ -54,6 +54,7 @@ header {
 .general-table{
     border: 1px solid black;
     background-color: #CACCF5;
+    font-size: 15px;
 }
 
 .subject-table{
@@ -64,13 +65,14 @@ header {
 
 .under-subject{
     border: 1px solid black;
+    
 
 }
 
 
 .units{
-    word-spacing: 17px;
-  
+    word-spacing: 17px; 
+
 
 }
 
@@ -86,16 +88,47 @@ header {
 
 }
 .line{
-   border-bottom: 1px solid black;
-   padding-bottom:2px ;
+    border-bottom: 1px solid black;
+    padding-bottom:2px ;
 }
+
+.fee{
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: #CACCF5;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.fees-table{
+    width: 700px;
+    height: 100px;
+
+}
+
+.assessment{
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.payment{
+    border: 1px solid black;
+    width: 700px;
+    height: 100px;
+}
+
+
+
+
+
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     font-size: 14px;
     border: 1px solid black;
-   
+
 }
 
 
@@ -108,17 +141,19 @@ th, td {
     border-right: none;
     border-top: none;
     
+    
 }
 
 th {
     font-weight: bold;
- 
 }
 
 tbody td {
     text-align: left;
-   
+
 }
+
+
 
 
 
